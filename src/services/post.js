@@ -1,4 +1,4 @@
-let BASE_URI = window.location.pathname.includes("localhost")
+let BASE_URI = window.location.origin.includes("localhost")
   ? "http://localhost:3030"
   : "https://llnl1.herokuapp.com";
 
